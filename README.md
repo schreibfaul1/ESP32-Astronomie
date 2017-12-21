@@ -2,6 +2,9 @@
 Compute astronomical data from given geoaraphic coordinates, date and time.<br>
 Library zum Bau einer astronomischen Uhr mit ESP32. Berechnet für einen geografischen Ort für die angegebene Zeit den Sonnenaufgang, Sonnenuntergang, die Mondphase, das Tierkreiszeichen u.v.m.
 Das Datum muss zwischen 1.3.1901 und 28.2.2100 liegen. Eine ausführliche Beschreibung der verwendeten Formeln ist hier zu finden: http://lexikon.astronomie.info/java/sunmoon/ <br>
+Library for the construction of an astronomical clock with ESP32. Calculates the sunrise, sunset, moon phase, zodiac sign, etc. for a given geographical location for the specified time. The date must be between 1.3.1901 and 28.2.2100. A detailed description of the formulas used can be found here: http://lexikon.astronomie.info/java/sunmoon/ <br>
+
+
 Beispielprogramm: 
 
 ````c++
