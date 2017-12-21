@@ -4,7 +4,7 @@ Library zum Bau einer astronomischen Uhr mit ESP32. Berechnet für einen geograf
 Das Datum muss zwischen 1.3.1901 und 28.2.2100 liegen. Eine ausführliche Beschreibung der verwendeten Formeln ist hier zu finden: http://lexikon.astronomie.info/java/sunmoon/
 Beispielprogramm: 
 
-''''c++
+````c++
 #include <Arduino.h>
 #include "astronomy.h"
 
@@ -31,7 +31,7 @@ void loop()
 {
 //Add your repeated code here
 }
-''''
+````
 
 Ausgabe:
 Oestl. geografische Laenge: ........... 13.40 Grad
@@ -78,7 +78,7 @@ Mondphase: ............................ Zunehmender Mond
 Mondzeichen: .......................... Stier
 
 Weiteres Beispiel, Berechnung des Sonnenaufgangs und Sonnenuntergangs für Berlin vom 01.Dez-11.Det. 2017;
-''''c++
+````c++
 #include <Arduino.h>
 #include "astronomy.h"
 
@@ -111,7 +111,7 @@ void loop()
 {
 //Add your repeated code here
 }
-''''
+````
 
 
 
