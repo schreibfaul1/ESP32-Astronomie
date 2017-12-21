@@ -1,5 +1,5 @@
 # ESP32-Astronomie
-Compute astronomical data from given geoaraphic coordinates, date and time
+Compute astronomical data from given geoaraphic coordinates, date and time.<br>
 Library zum Bau einer astronomischen Uhr mit ESP32. Berechnet für einen geografischen Ort für die angegebene Zeit den Sonnenaufgang, Sonnenuntergang, die Mondphase, das Tierkreiszeichen u.v.m.
 Das Datum muss zwischen 1.3.1901 und 28.2.2100 liegen. Eine ausführliche Beschreibung der verwendeten Formeln ist hier zu finden: http://lexikon.astronomie.info/java/sunmoon/ <br>
 Beispielprogramm: 
@@ -32,6 +32,7 @@ void loop()
 //Add your repeated code here
 }
 ````
+### Ausgabe im Terminal: <br>
 ![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro2.jpg)
  <br>
 Weiteres Beispiel, Berechnung des Sonnenaufgangs und Sonnenuntergangs für Berlin vom 01.Dez-11.Det. 2017;
@@ -69,7 +70,7 @@ void loop()
 //Add your repeated code here
 }
 ````
-Ausgabe: <br>
+### Ausgabe im Terminal: <br>
 ![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro1.jpg)
 <br>
 
