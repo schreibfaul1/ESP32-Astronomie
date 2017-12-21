@@ -32,50 +32,7 @@ void loop()
 //Add your repeated code here
 }
 ````
-
-Ausgabe: <br>
-Oestl. geografische Laenge: ........... 13.40 Grad <br>
-Geografische Breite: .................. 52.52 Grad <br>
-Datum/Zeit: ........................... 01.12.2017 10:00:00 <br>
-Zeitdifferenz zu Weltzeit: ............ 1.00 h <br>
-deltaT: ............................... 65.00 sek <br>
-Julianisches Datum: ................... 2458088.88 Tage <br>
-Greenwich Sternzeit  GMST: ............ 13:41:39 = 13.6942 h <br>
-Lokale Sternzeit LMST: ................ 14:35:15 = 14.5875 h <br>
-Entfernung der Sonne (Erdmittelpunkt):  147498071.20 km <br>
-Entfernung der Sonne (vom Beobachter):  147496787.00 km <br>
-Eklipt. Laenge der Sonne: ............. 249.40 Grad <br>
-Rektaszension der Sonne: .............. 16:30:52 = 16.5144 h <br>
-Deklination der Sonne: ................ -21.86 Grad <br>
-Azimut der Sonne: ..................... 152.76 Grad <br>
-Hoehe der Sonne ueber Horizont: ....... 11.90 Grad <br>
-Durchmesser der Sonne: ................ 32.44 ' <br>
-Astronomische Morgendaemmerung: ....... 05:49:54 = 5.83 h <br>
-Nautische Morgendaemmerung: ........... 06:31:06 = 6.52 h <br>
-Buergerliche Morgendaemmerung: ........ 07:14:30 = 7.24 h <br>
-Sonnenaufgang: ........................ 07:54:44 = 7.91 h <br>
-Sonnenkulmination: .................... 11:55:39 = 11.93 h <br>
-Sonnenuntergang: ...................... 15:56:12 = 15.94 h <br>
-Buergerliche Abenddaemmerung: ......... 16:36:26 = 16.61 h <br>
-Nautische Abenddaemmerung: ............ 17:19:49 = 17.33 h <br>
-Astronomische Abenddaemmerung: ........ 18:00:59 = 18.02 h <br>
-Tierkreiszeichen: ..................... Schuetze <br>
-Entfernung des Mondes (Erdmittelpunkt): 371229.90 km <br>
-Entfernung des Mondes (vom Beobachter): 374301.30 km <br>
-Eklipt. Laenge des Mondes: ............ 37.45 Grad <br>
-Eklipt. Breite des Mondes: ............ -5.05 Grad <br>
-Rektaszension des Mondes: ............. 02:27:07 = 2.45 h <br>
-Deklination des Mondes: ............... 8.36 Grad <br>
-Azimut des Mondes: .................... 2.30 Grad <br>
-Hoehe des Mondes ueber Horizont: ...... -29.10 Grad <br>
-Durchmesser des Mondes: ............... 32.19 ' <br>
-Mondaufgang: .......................... 15:09:53 = 15.16 h <br>
-Mondkulmination: ...................... 22:18:21 = 22.31 h <br>
-Monduntergang: ........................ 04:21:56 = 4.37 h <br>
-Mondphase: ............................ 0.92 <br>
-Mondalter: ............................ 148.10 Grad <br>
-Mondphase: ............................ Zunehmender Mond <br>
-Mondzeichen: .......................... Stier <br>
+![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro2.jpg)
  <br>
 Weiteres Beispiel, Berechnung des Sonnenaufgangs und Sonnenuntergangs für Berlin vom 01.Dez-11.Det. 2017;
 ````c++
