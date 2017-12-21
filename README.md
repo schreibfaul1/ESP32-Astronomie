@@ -25,7 +25,7 @@ void setup(){
 	Serial.begin(115200);
 
 	//Set the Date/Time (UTC)
-    as_date d={  1, 12, 2017}; // day, month, year
+        as_date d={  1, 12, 2017}; // day, month, year
 	as_time t={ 10, 00,   00}; // hour, minute, second
 	astro.setInput(d, t);
 	Serial.println(astro.GetAll());
@@ -57,7 +57,7 @@ void setup(){
 	Serial.begin(115200);
 
 	//Set the Date/Time (UTC)
-    as_date d={ 1, 12, 2017}; // day, month, year
+        as_date d={ 1, 12, 2017}; // day, month, year
 	as_time t;
 
 	Serial.println("\n Berlin, Dezember 2017");
