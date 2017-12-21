@@ -69,7 +69,9 @@ void loop()
 //Add your repeated code here
 }
 ````
-
+Ausgabe: <br>
+![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro1.jpg)
+<br>
 
 
 
