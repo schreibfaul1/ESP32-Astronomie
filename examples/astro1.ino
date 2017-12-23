@@ -12,7 +12,7 @@ char buf[100];
 void setup(){
 	Serial.begin(115200);
 
-	//Set the Date/Time (UTC)
+	//Set the Date/Time
     as_date d={ 1, 12, 2017}; // day, month, year
 	as_time t;
 
