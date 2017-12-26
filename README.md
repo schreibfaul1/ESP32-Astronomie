@@ -40,7 +40,7 @@ void loop()
 ### Ausgabe im Terminal: <br>
 ![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro2.jpg)
  <br>
-Weiteres Beispiel, Berechnung des Sonnenaufgangs und Sonnenuntergangs für Berlin vom 01.Dez-11.Det. 2017;
+Weiteres Beispiel, Berechnung des Sonnenaufgangs und Sonnenuntergangs für Berlin vom 01.Dez-11.Dez. 2017;
 ````c++
 #include <Arduino.h>
 #include "astronomy.h"
