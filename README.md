@@ -7,7 +7,7 @@ Das Datum muss zwischen 1.3.1901 und 28.2.2100 liegen. Eine ausführliche Beschr
 Library for the construction of an astronomical clock with ESP32. Calculates the sunrise, sunset, moon phase, zodiac sign, etc. for a given geographical location for the specified time. The date must be between 1.3.1901 and 28.2.2100. A detailed description of the formulas used can be found here: http://lexikon.astronomie.info/java/sunmoon/ <br>
 
 
-Example 1: 
+### Example 1: 
 
 ````c++
 // preparation: avoid insufficient stack
@@ -47,10 +47,10 @@ void loop()
 //Add your repeated code here
 }
 ````
-### Output:: <br>
-![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro2.jpg)
+Output:: <br>
+![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/images/astronomy1.jpg)
  <br>
-Weiteres Beispiel, Berechnung des Sonnenaufgangs und Sonnenuntergangs für Berlin vom 01.Dez-11.Dez. 2017;
+### Example 2:
 ````c++
 // double the stack in main.cpp
 // set: xTaskCreatePinnedToCore(loopTask, "loopTask", 8192*2, NULL, 1, &loopTaskHandle, ARDUINO_RUNNING_CORE);
