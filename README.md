@@ -90,8 +90,8 @@ void loop()
 }
 
 ````
-### Output: <br>
-![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/examples/astro1.jpg)
+Output: <br>
+![Ausgabe](https://github.com/schreibfaul1/ESP32-Astronomie/blob/master/images/astronomy2.jpg)
 <br>
 
 
